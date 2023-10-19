@@ -7,9 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <>
-      <div>
-        Hihi
-      </div>
+      <h1>Hello</h1>
     </>
   )
  
