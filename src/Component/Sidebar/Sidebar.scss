@@ -1,0 +1,45 @@
+@media (min-width: 992px) {
+    #sideNav {
+        height: 100vh;
+        width: 17rem;
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+
+    }
+}
+
+.nav-link {
+    font-size: 1rem !important;
+    text-transform: uppercase;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.navbar-brand {
+    display: flex !important;
+    margin: auto auto 0 !important;
+    padding: 0.5rem;
+
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0 !important;
+    margin-bottom: auto;
+    justify-content: center;
+}
+
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}

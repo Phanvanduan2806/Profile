@@ -3,9 +3,9 @@ import About from './About/About';
 
 function Main(props) {
     return (
-        <div>
+        <>
            <About></About>
-        </div>
+        </>
     );
 }
 
