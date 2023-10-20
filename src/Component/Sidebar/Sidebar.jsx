@@ -4,7 +4,7 @@ import "./Sidebar.scss";
 function Sidebar(props) {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2" id="sideNav">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary p-2" id="sideNav">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
             <span className="d-block d-lg-none  mx-0 px-0">
               <img src="https://themewagon.github.io/profile-bootstrap/img/logo-white.png" alt="" className="img-fluid" style={{height: '50px'}}/>
@@ -18,7 +18,7 @@ function Sidebar(props) {
             </span>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -26,32 +26,32 @@ function Sidebar(props) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Experience
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
+              <li className="nav-item">
+                <a className="nav-link" aria-disabled="true">
                   Skill
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
+              <li className="nav-item">
+                <a className="nav-link" aria-disabled="true">
                   Skill
                 </a>
               </li>

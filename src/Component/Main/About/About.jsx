@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+
 function About(props) {
   return (
     <>
@@ -24,36 +25,26 @@ function About(props) {
             strategy foster collaborative thinking to further the overall value
             proposition.
           </span>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="#">
-                <div class="btn__social">
-                  <i class="fa-brands fa-facebook-f"></i>
+          <ul className="list-inline mb-0 d-flex">
+            <li>
+              <a href="#" className="text-decoration-none">
+                <div className="btn__social">
+                  <i className="fa-brands fa-facebook-f"></i>
                 </div>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
+            <li className="ms-3">
+              <a href="#" className="text-decoration-none">
+                <div className="btn__social">
+                <i class="fa-solid fa-envelope"></i>
+                </div>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
+            <li className="ms-3">
+              <a href="#" className="text-decoration-none">
+                <div className="btn__social">
+                <i class="fa-solid fa-phone"></i>
+                </div>
               </a>
             </li>
           </ul>
